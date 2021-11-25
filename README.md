@@ -1,5 +1,5 @@
 # driving-sim
-🚗 Data-powered self-driving simulator
+🚗 Data-powered driving simulator
 
 ## Demo:
 ```
