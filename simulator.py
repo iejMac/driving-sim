@@ -35,7 +35,9 @@ if __name__ == "__main__":
   cv2.namedWindow("simulator")
 
   while sim.active:
-    cv2.imshow("simulator", sim.get_state())
+    state = sim.get_state()
+    state = cv2.resize(state, (640, 320))
+    cv2.imshow("simulator", state)
     key = cv2.waitKey(25)
     if key == ord('q'):
       break
